@@ -23,6 +23,4 @@ from tasktwo import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.trigger_signal, name='trigger_signal'),
-   # path('',signals.my_receiver, name='my_receiver'),
-   # path('',signals.receiver, name='receiver')
 ]
